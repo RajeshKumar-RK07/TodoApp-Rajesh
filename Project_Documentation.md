@@ -32,7 +32,7 @@ The current scope focuses on a single-user environment (no authentication/author
 * **Performance:** API endpoints should respond in under 200ms for standard queries.
 
 ## 7. Technology Stack
-* **Backend:** ASP.NET Core Web API (.NET 8)
+* **Backend:** ASP.NET Core Web API
   * *Reasoning:* Provides a highly performant, strongly typed, and scalable framework for building enterprise REST APIs.
 * **Frontend:** React JS
   * *Reasoning:* Enables the creation of a dynamic, component-based user interface that updates instantly without page reloads, providing a smooth UX.
@@ -109,8 +109,8 @@ While this is a foundational app, security best practices were observed:
 
 ## 16. Setup Instructions
 ### Prerequisites
-* .NET 8 SDK
-* Node.js (v16+)
+* .NET SDK
+* Node.js
 * A code editor like Visual Studio Code
 
 ### Backend Setup

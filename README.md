@@ -1,7 +1,7 @@
 <h1 align="center">Full-Stack Todo Manager</h1>
 
 <p align="center">
-  A clean, responsive, and robust task management web application built with C# .NET 8 Web API and React.js.
+  A clean, responsive, and robust task management web application built with C# .NET Web API and React.js.
 </p>
 
 ## 🚀 Project Overview
@@ -56,7 +56,7 @@ TodoApp-Rajesh/
 ### Prerequisites
 Make sure you have the following installed on your machine:
 - [.NET SDK](https://dotnet.microsoft.com/download)
-- [Node.js](https://nodejs.org/) (v16 or higher)
+- [Node.js](https://nodejs.org/) 
 
 ### 1. Backend Setup
 1. Open a terminal and navigate to the backend folder:

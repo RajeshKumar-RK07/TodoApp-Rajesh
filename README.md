@@ -18,7 +18,7 @@ For a deeper dive into the technical decisions, architecture, and system require
 
 ## 🛠️ Tech Stack
 **Backend:**
-- **Framework:** ASP.NET Core Web API (.NET 8.0)
+- **Framework:** ASP.NET Core Web API 
 - **Database:** SQLite (Lightweight, file-based relational database)
 - **ORM:** Entity Framework Core (Code-First Migrations)
 
@@ -36,7 +36,7 @@ The app strictly separates concerns. The frontend React application acts solely 
 TodoApp-Rajesh/
 ├── Project_Documentation.md   # Comprehensive project details and architecture
 ├── README.md                  # This file
-├── TodoApi/                   # .NET Core 8 Web API Backend
+├── TodoApi/                   # .NET Core Web API Backend
 │   ├── Controllers/           # API endpoints routing and logic
 │   ├── Data/                  # Entity Framework DbContext
 │   ├── Middleware/            # Custom error-handling interceptors
@@ -100,20 +100,6 @@ Make sure you have the following installed on your machine:
 | `PUT` | `/api/todo/{id}` | Update an existing task |
 | `DELETE`| `/api/todo/{id}` | Remove a task |
 
-## 📸 Screenshots
-*(Placeholder for screenshots. To add images, take a screenshot of your app, save it in a `/docs` folder, and update the paths below)*
-
-> **Main Dashboard View**
-> 
-> `![Dashboard Screenshot](./docs/dashboard.png)`
-
-> **Searching and Filtering**
-> 
-> `![Filtering Screenshot](./docs/filtering.png)`
-
-## 🌐 Deployment Links
-- **Live Frontend:** `[Link to Vercel/Netlify Deployment Here]`
-- **Live API:** `[Link to Azure/AWS API Deployment Here]`
 
 ## 🧠 Challenges Faced
 The most significant challenge was implementing clean error handling across the entire backend. Initially, wrapping every controller method in `try/catch` blocks led to highly repetitive code. 
@@ -125,17 +111,4 @@ Through this project, I deepened my understanding of:
 2. Managing complex local state and prop drilling in React without relying on heavy external libraries like Redux.
 3. Securing an API with CORS policies and parameterizing queries through EF Core to prevent SQL injection.
 
-## 🚀 Future Enhancements
-- [ ] Add User Authentication (JWT) to support multiple accounts.
-- [ ] Implement backend pagination to support thousands of tasks.
-- [ ] Introduce a drag-and-drop UI for reordering tasks.
-- [ ] Write automated unit tests (xUnit for C#, Jest for React).
 
-## 👨‍💻 Author Information
-**Rajesh**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
-
----
-*Feel free to star ⭐ this repository if you find it helpful!*

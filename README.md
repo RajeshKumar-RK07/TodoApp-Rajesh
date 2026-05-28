@@ -55,7 +55,7 @@ TodoApp-Rajesh/
 
 ### Prerequisites
 Make sure you have the following installed on your machine:
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
+- [.NET SDK](https://dotnet.microsoft.com/download)
 - [Node.js](https://nodejs.org/) (v16 or higher)
 
 ### 1. Backend Setup
